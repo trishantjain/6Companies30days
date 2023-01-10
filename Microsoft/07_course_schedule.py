@@ -50,12 +50,12 @@ class Solution:
                 if inDegree[neighbour] == 0:
                     queue.append(neighbour)
 
-        if count == numCourses: 
-            return True 
+        if count == numCourses:
+            return True
         else:
             return False
 
 
 p = Solution()
 
-print(p.canFinish(2, [[1,0],[0,1]]))
+print(p.canFinish(2, [[1, 0], [0, 1]]))
